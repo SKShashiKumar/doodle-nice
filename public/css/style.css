@@ -1,0 +1,106 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.thumbnail{
+    position: relative;
+    display: inline-block;
+}
+
+.thumbnail img{
+    display: block;
+    width: 100%;
+}
+
+.F1ImgContent{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-weight: bold;
+}
+
+.ShakeRounded1{
+    border-radius: 50%;
+    height: 20vh;
+    width: 20%;
+    border:5px solid green;
+}
+
+
+.ShakeRounded2{
+    border-radius: 50%;
+    height: 20vh;
+    width: 70%;
+    border:5px solid green;
+}
+
+.ShakeRounded3{
+    border-radius: 50%;
+    height: 20vh;
+    width: 20%;
+    border:5px solid green;
+}
+
+.starbucksMain{
+    font-size: 200px;
+    font-weight: 600;
+}
+
+.SmileBucks{
+    width: 100%;
+}
+
+.RemGaga{
+    width: 100%;
+}
+
+
+/* F3 */
+.GreenBucks{
+    height: 98vh;
+    width: 100%;
+}
+
+.CupwithLeafs{
+    width: 100%;
+}
+
+/* F4 */
+
+.star{
+    position: relative;
+    display: inline-block;
+}
+
+.starImg{
+    height: 100vh; 
+    width: 100%;
+}
+
+.starContent{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-weight: bold;
+}
+
+.Caramel{
+    height: 100vh;
+    width: 100%;
+}
+
+/* F5 */
+.BucksVariant{
+    height:100%;
+    width: 100%;
+}
+
+/* F6 */
+.last{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
+
+/* Sidebar */
