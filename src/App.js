@@ -6,12 +6,10 @@ import F5 from './components/F5';
 import F6 from './components/F6';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
-import { Sidebar } from './components/SideBar';
 
 function App() {
   return (
     <div>
-      {/* <Sidebar/> */}
       <Nav/>
       <F1/>
       <F2/>
