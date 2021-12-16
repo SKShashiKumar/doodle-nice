@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid, Typography,Button } from "@mui/material";
 
 const F4 = () => {
     return ( 
@@ -9,14 +9,19 @@ const F4 = () => {
                     <div className="starContent">
                         <Grid container>
                             <Grid item md={12} lg={12} xl={12}>
-                                <Typography variant="h4" component="h4" sx={{'fontFamily':'Oswald','fontWeight':600}}>
-                                The New Ultra Caramel<br/>Frappuccino Is Here!
+                                {/* <div className={{paddingTop:'50vh'}}> */}
+                                <Typography variant="h4" component="h4" sx={{'fontFamily':'Oswald','fontWeight':600,padding:'200px 0% 5% 0%'}}>
+                                    The New Ultra Caramel<br/>Frappuccino Is Here!
                                 </Typography>
                                 <Typography>
-                                Congrats on doing that thing! This calls for caramel. Lots<br/>
-                                of it. With cold brew whipped cream. The new Ultra<br/>
-                                Caramel Frappuccino is here!<br/>
+                                    Congrats on doing that thing! This calls for caramel. Lots<br/>
+                                    of it. With cold brew whipped cream. The new Ultra<br/>
+                                    Caramel Frappuccino is here!<br/>
                                 </Typography>
+                                <div style={{padding:'5% 0% 5% 0%'}}>
+                                    <Button variant="outlined" sx={{'color':'black',}}>learn more</Button>
+                                </div>
+                                {/* </div> */}
                             </Grid>
                         </Grid>
                     </div>

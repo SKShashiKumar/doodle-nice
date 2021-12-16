@@ -8,9 +8,10 @@ body{
     display: inline-block;
 }
 
-.thumbnail img{
+.thumbnail .F1Img{
     display: block;
     width: 100%;
+    height: 100vh;
 }
 
 .F1ImgContent{
@@ -18,28 +19,29 @@ body{
     top: 10%;
     left: 10%;
     font-weight: bold;
+    padding-left: 7%;
 }
 
 .ShakeRounded1{
     border-radius: 50%;
-    height: 20vh;
-    width: 20%;
-    border:5px solid green;
+    height: 150px;
+    width: 150px;
+    border:5px solid rgb(0,99,65);
 }
 
 
 .ShakeRounded2{
     border-radius: 50%;
-    height: 20vh;
-    width: 70%;
-    border:5px solid green;
+    height: 150px;
+    width: 150px;
+    border:5px solid rgb(0,99,65);
 }
 
 .ShakeRounded3{
     border-radius: 50%;
-    height: 20vh;
-    width: 20%;
-    border:5px solid green;
+    height: 150px;
+    width: 150px;
+    border:5px solid rgb(0,99,65);
 }
 
 .starbucksMain{
@@ -49,25 +51,30 @@ body{
 
 .SmileBucks{
     width: 100%;
+    height: 100vh;
 }
 
 .RemGaga{
     width: 100%;
+    height: 50vh;
 }
 
+.greenLine{
+    border-top: 20px solid rgb(0,99,65);
+}
 
 /* F3 */
 .GreenBucks{
-    height: 98vh;
+    height: 110vh;
     width: 100%;
 }
 
 .CupwithLeafs{
     width: 100%;
+    height: 53.3vh;
 }
 
 /* F4 */
-
 .star{
     position: relative;
     display: inline-block;
@@ -76,6 +83,7 @@ body{
 .starImg{
     height: 100vh; 
     width: 100%;
+    opacity: 60%;
 }
 
 .starContent{
@@ -91,6 +99,15 @@ body{
 }
 
 /* F5 */
+
+.F5ImgContent{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-weight: bold;
+    padding: 5% 5% 5% 2%;
+}
+
 .BucksVariant{
     height:100%;
     width: 100%;
