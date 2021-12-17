@@ -4,7 +4,7 @@ const F2 = () => {
     return ( 
         <>
             <Grid container sx={{height:'100vh'}} >
-                <Grid items md={6} lg={6} xl={6}>
+                <Grid item sm={6} md={6} lg={6} xl={6}>
                     <Typography variant="h4" component="h4" sx={{'fontFamily':'Oswald','fontWeight':600,padding:'10% 0% 0% 20%'}}>
                         <span className="greenLine">Four Drinks</span>, A Million <br/>Reasons
                     </Typography>
@@ -23,7 +23,7 @@ const F2 = () => {
                     </div>
                     <img src="/img/RemGaga.JPG" alt="" className="RemGaga"/>
                 </Grid>
-                <Grid items md={6} lg={6} xl={6}>
+                <Grid item md={6} lg={6} xl={6}>
                     <img src="/img/SmileBucks.JPG" alt="" className="SmileBucks"/>
                 </Grid>
             </Grid>

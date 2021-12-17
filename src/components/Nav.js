@@ -1,7 +1,6 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import CloseIcon from "@mui/icons-material/Close";
@@ -135,9 +134,7 @@ export default function Sidebar() {
               sx={{ mr: 2 }}
             >
               <React.Fragment>
-                <Button onClick={toggleDrawer("left", true)}>
-                  <MenuIcon sx={{color:'black'}}/>
-                </Button>
+                  <MenuIcon sx={{color:'black'}} onClick={toggleDrawer("left", true)}/>
                 <Drawer
                   anchor={"left"}
                   open={state["left"]}

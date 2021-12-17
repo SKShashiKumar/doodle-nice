@@ -9,7 +9,7 @@ const F5 = () => {
                         <Grid container>
                             <Grid item md={12} lg={12} xl={12}>
                             <Typography variant="h4" component="h4" sx={{'fontFamily':'Oswald','fontWeight':600,'padding':'10px'}}>
-                                <span class="greenLine">Kindness St</span>arts<br/> With A Cup
+                                <span className="greenLine">Kindness St</span>arts<br/> With A Cup
                             </Typography>
                             </Grid>
                             <Grid item md={12} lg={12} xl={12} sx={{'paddingLeft':'2%'}}>

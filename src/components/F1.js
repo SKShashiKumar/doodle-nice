@@ -3,7 +3,7 @@ import { Grid, Typography } from "@mui/material";
     return ( 
         <>
             <Grid container spacing={2}>
-                <Grid item md={12} className="thumbnail ">
+                <Grid item md={12} lg={12} xl={12} className="thumbnail">
                     <img src="/img/MainCover.jpeg" alt="FirstCover" className="F1Img"/>
                     <div className="F1ImgContent">
                         <Grid container>

@@ -7,7 +7,7 @@ const F3 = () => {
                     <img src="/img/GreenBucks.JPG" alt="" className="GreenBucks"/>
                 </Grid>
                 
-                <Grid items md={6} lg={6} xl={6}>
+                <Grid item md={6} lg={6} xl={6}>
                     <Typography variant="h4" component="h4" sx={{'fontFamily':'Oswald','fontWeight':600,padding:'10% 0% 0% 20%'}}>
                     <span className="greenLine">Introducing</span> Vanilla Sweet <br/>Cream Cold Brew—Sweet,<br/> Creamy, Cold, Bold.
                     </Typography>
